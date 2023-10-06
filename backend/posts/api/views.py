@@ -12,7 +12,7 @@ class PostViewSet(ModelViewSet):
     serializer_class = PostSerializer
 
 
-
+# mysql connect
 @csrf_exempt
 def postApi(request, id=0):
     if request.method == 'GET':
